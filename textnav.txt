@@ -1,1 +1,4 @@
-I am here to invent within the tech industry!
+I am here to invent within the tech industry! 
+def main():
+  for x in range(3):
+     print("I am a Coder")

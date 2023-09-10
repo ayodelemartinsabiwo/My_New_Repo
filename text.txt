@@ -1,14 +1,106 @@
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHubsub/New_All (test/newacc)
+$ cd ..
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHubsub
+$ cd ..
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents
+$ cd GitHub
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub
+$ cd My-Second-Repo/
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ git remote -v
+origin  https://github.com/ayodelemartinsabiwo/My_New_Repo.git (fetch)
+origin  https://github.com/ayodelemartinsabiwo/My_New_Repo.git (push)
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ ls -la
+total 15
+drwxr-xr-x 1 AYODELE MARTINS 197121   0 Sep  9 18:03 ./
+drwxr-xr-x 1 AYODELE MARTINS 197121   0 Sep  9 09:19 ../
+drwxr-xr-x 1 AYODELE MARTINS 197121   0 Sep  9 18:05 .git/
+-rw-r--r-- 1 AYODELE MARTINS 197121  63 Sep  9 03:20 README.md
+-rw-r--r-- 1 AYODELE MARTINS 197121   0 Sep  9 18:03 mysec.txt
+-rw-r--r-- 1 AYODELE MARTINS 197121   0 Sep  3 20:47 test2.txt
+-rw-r--r-- 1 AYODELE MARTINS 197121 236 Sep  9 04:38 text.txt
+-rw-r--r-- 1 AYODELE MARTINS 197121 111 Sep  9 03:20 textnav.txt
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat .git/refs/heads/main
+5a429cd50ebe261fc0dd71488261b1d66fe9006e
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat .git/HEAD
+ref: refs/heads/main
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ PWd
+/c/Users/AYODELE MARTINS/Documents/GitHub/My-Second-Repo
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ ls -l
+total 3
+-rw-r--r-- 1 AYODELE MARTINS 197121  63 Sep  9 03:20 README.md
+-rw-r--r-- 1 AYODELE MARTINS 197121   0 Sep  9 18:03 mysec.txt
+-rw-r--r-- 1 AYODELE MARTINS 197121   0 Sep  3 20:47 test2.txt
+-rw-r--r-- 1 AYODELE MARTINS 197121 236 Sep  9 04:38 text.txt
+-rw-r--r-- 1 AYODELE MARTINS 197121 111 Sep  9 03:20 textnav.txt
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat > text.txt
+
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat < text.txt
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat text.txt
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ diff text.txt
+diff: missing operand after 'text.txt'
+diff: Try 'diff --help' for more information.
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ text.txt diff
+bash: text.txt: command not found
+
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat textnav.txt
+I am here to invent within the tech industry!
 def main():
-    x = get_int()
-    print(x)
+  for x in range(3):
+     print("I am a Coder")
 
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ git diff text.txt
+diff --git a/text.txt b/text.txt
+index 7a1aad1..e69de29 100644
+--- a/text.txt
++++ b/text.txt
+@@ -1,14 +0,0 @@
+-def main():
+-    x = get_int()
+-    print(x)
+-
+-
+-def get_int():
+-    while True:
+-        for x in get_int():
+-            x = int(input("What is x ? "))
+-            print(f"x is {x} ")
+-        else:
+-            return x
+-
+-main()
 
-def get_int():
-    while True:
-        for x in get_int():
-            x = int(input("What is x ? "))
-            print(f"x is {x} ")
-        else:
-            return x
-
-main()
+AYODELE MARTINS@AyodeleMartins-001 MINGW64 ~/Documents/GitHub/My-Second-Repo (main)
+$ cat > text.txt
+[A[A[B[C[C[C[D[D[C[D[C[C[C[D[D[D[D[D[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
